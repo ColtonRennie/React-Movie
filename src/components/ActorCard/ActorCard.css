@@ -1,0 +1,19 @@
+.ActorCard {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.actor-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-center {
+  color: rgb(153, 11, 11);
+}
+
+.card {
+  background-color: black;
+}

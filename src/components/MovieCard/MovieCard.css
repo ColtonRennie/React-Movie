@@ -1,0 +1,11 @@
+.MovieCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 25rem));
+  place-content: space-between space-evenly;
+  -webkit-box-align: start;
+  align-items: start;
+  padding: 4rem 0px;
+  gap: 4rem 2rem;
+  align-items: center;
+  justify-content: center;
+}

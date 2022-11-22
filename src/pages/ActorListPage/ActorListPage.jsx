@@ -1,9 +1,14 @@
-import React from 'react'
+import ActorCard from '../../components/ActorCard/ActorCard'
 
-export default function ActorListPage() {
+export default function ActorListPage({ actorList }) {
   return (
-    <div>
-      <h1>ActorListPage</h1>
-    </div>
+    <main className='ActorListPage'>
+      <h1>Actor List</h1>
+      <div className='flex-container'>
+        {actorList.map((actor, index) => (
+          <ActorCard actor={actor} key={index} />
+        ))}
+      </div>
+    </main>
   )
 }
